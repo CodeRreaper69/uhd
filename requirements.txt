@@ -1,5 +1,5 @@
 numpy
-opencv-python
+opencv-python-headless
 imutils
 face_recognition @ git+https://github.com/thetoby9944/face_recognition
 streamlit
