@@ -1,7 +1,7 @@
 numpy
 opencv-python
 imutils
-face_recognition @ git+https://github.com/thetoby9944/face_recognition
+https://github.com/Murtaza-Saeed/dlib/blob/master/dlib-19.24.1-cp311-cp311-win_amd64.whl
 streamlit
 scipy
 plyer
