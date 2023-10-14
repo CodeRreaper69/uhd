@@ -7,7 +7,7 @@ import scipy.io.wavfile as wav
 import streamlit as st
 from plyer import notification
 import time
-import pygame
+#import pygame
 import os
 from tempfile import NamedTemporaryFile
 
@@ -15,7 +15,7 @@ from tempfile import NamedTemporaryFile
 
 
 # Initialization pygame mixer
-pygame.mixer.init()
+#pygame.mixer.init()
 
 
 # Set up Streamlit app title and description
@@ -79,8 +79,8 @@ def notify():
             message="STOP THE CAR, STOP THE CAR",
             timeout=10
         )
-        play_audio(audio_file_path)  # Play the audio notification
-        time.sleep(3600)  # Wait for 1 hour before showing the notification again
+        #play_audio(audio_file_path)  # Play the audio notification
+        time.sleep(60)  # Wait for 1 hour before showing the notification again
 
 # Check if an audio file is uploaded
 if uploaded_file:
